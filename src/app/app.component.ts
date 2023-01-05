@@ -7,8 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  title = 'Este he o Titulo';
-  discription = 'Leao';
-  url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sultan_the_Barbary_Lion.jpg/440px-Sultan_the_Barbary_Lion.jpg';
-
 }
