@@ -6,6 +6,6 @@ import { Component, Input } from '@angular/core';
 })
 export class PhotoComponent{
   title = 'Este he o Titulo';
-  @Input() discription = '';
+  @Input() description = '';
   @Input() url = '';
 }
