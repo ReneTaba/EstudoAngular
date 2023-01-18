@@ -1,8 +1,10 @@
-import { PhotosModule } from './photos/photos.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
+
+import { ErrosModule } from './erros/erros.module';
+import { PhotosModule } from './photos/photos.module';
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app.routing.module';
 
 @NgModule({
     declarations: [
@@ -12,7 +14,9 @@ import { AppComponent } from './app.component';
     bootstrap: [AppComponent],
     imports: [
         BrowserModule,
-        PhotosModule
+        PhotosModule,
+        AppRoutingModule,
+        ErrosModule
     ]
 })
 export class AppModule { }
