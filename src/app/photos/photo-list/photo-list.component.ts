@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
+import { Photo } from '../photo/photo';
 import { PhotoService } from '../photo/photo.service';
 
 @Component({
@@ -10,7 +11,7 @@ import { PhotoService } from '../photo/photo.service';
 })
 
 export class PhotoListComponent implements OnInit{
-  photos: any[] = [];
+  photos: Photo[] = [];
 
   // Vou deixar o constructor apenas para injecao de dependencias
   // passando as logicas de negocio para uma funcao ngOnInit
